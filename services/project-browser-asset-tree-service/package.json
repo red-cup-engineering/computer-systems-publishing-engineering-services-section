@@ -1,0 +1,27 @@
+{
+  "name": "@red-cup-engineering/project-browser-asset-tree-service",
+  "version": "0.4.0",
+  "description": "Publish HTML entries with their actual browser dependency closure and authored media.",
+  "type": "module",
+  "exports": {
+    ".": "./src/project-browser-asset-tree.mjs"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "check": "node --check src/project-browser-asset-tree.mjs",
+    "test": "node --test test/project-browser-asset-tree.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "sideEffects": false,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "esbuild": "0.28.1",
+    "parse5": "8.0.0",
+    "buffer": "6.0.3"
+  }
+}

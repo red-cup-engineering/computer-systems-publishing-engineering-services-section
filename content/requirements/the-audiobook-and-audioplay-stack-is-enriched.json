@@ -1,0 +1,56 @@
+{
+  "id": "the-audiobook-and-audioplay-stack-is-enriched",
+  "name": "The audiobook and audioplay stack is enriched",
+  "kind": "requirement",
+  "raised-by": "emsenn",
+  "asks": "3) we also want to enrich and work on our \"audiobook/audioplay\" stuff. I have big ideas about that, and you can use a second Codex 5.6 Sol High for doing that work, please. (Take some time to learn more how to manage concurrent agents like this for me.)",
+  "met-when": [
+    {
+      "cell": "the-audiobook-and-audioplay-stack-is-enriched:conditions-stated",
+      "target": "held"
+    }
+  ],
+  "x-provenance": {
+    "recorded-by": "emsenn/services/561-group/services/operations-services-section/services/requirement-management-operation-services-section#requirements-management-team@claude-session-01C1PPvutxergQgomSSaWG9Z",
+    "recorded-on": "2026-10-10",
+    "customer": "urn:leader:emsenn",
+    "utterances": [
+      "ni:///sha-256;mt98RdLDHy3ktur6fSYOtICUPui_L6dle1DYyGXv6V4"
+    ],
+    "sources": [
+      {
+        "words": "3) we also want to enrich and work on our \"audiobook/audioplay\" stuff. I have big ideas about that, and you can use a second Codex 5.6 Sol High for doing that work, please. (Take some time to learn more how to manage concurrent agents like this for me.)\n\n4) where do i get the specific crednetials you need for KDP please?",
+        "session": "a5c3285e-6c2a-4a47-b3c6-54d7f1efdc23",
+        "at": "2026-09-29T16:14:45.304Z",
+        "locator": "lib/emsenn/services/561-group/services/public-services-section/services/personal-services-section/services/emsenn-services-section/data/records/leader-utterances/2026-08-26--2026-10-10.jsonl#ni:///sha-256;mt98RdLDHy3ktur6fSYOtICUPui_L6dle1DYyGXv6V4"
+      }
+    ],
+    "pending-conditions": "No met-when is stated yet; this condition stands unsettled (read unknown) until a check that exercises the demand replaces it.",
+    "asks-from": "Point 3 of the utterance, verbatim; its point 4 is a credentials question, not this demand.",
+    "captured-by": "the capture line (session_017x7ZhpkZQAx5VZSv2Hz5Q9), coverage final batch, 2026-10-10: NOT HELD or HELD-THINLY rows no requirement carried",
+    "sign-cell": {
+      "type": "emsenn/schema/requirement",
+      "mark": "ni:///sha-256;cAwJHh7WElWvpMeVO5LoontJmwO1N4bgsjYPhwk-LRc"
+    },
+    "attestation": {
+      "claim": {
+        "kind": "computer-content.signed-content-claim",
+        "version": 1,
+        "purpose": "561-group.july-record-attestation.v1",
+        "issuer": "emsenn/services/561-group/services/operations-services-section/services/requirement-management-operation-services-section#requirements-management-team@claude-session-01C1PPvutxergQgomSSaWG9Z",
+        "issuedAt": "2026-10-10T06:59:55.093Z",
+        "content": {
+          "uri": "ni:///sha-256;EBDH4GEROQO1x3eWhtVnhQRYY5CEJtyN0VydHJ2R9R8",
+          "bytes": 57,
+          "mediaType": "text/plain"
+        },
+        "signature": {
+          "algorithm": "Ed25519",
+          "keyId": "ni:///sha-256;ckBB1fSoByEfYxnM1aPBrZFg7yfyTfhPEuww8Bk65ow",
+          "value": "8krCDxTKFs1fgWUwrtE5dBsDaJHhzas8PaWNc4-SZKZjSiFKfnQBqnzZiUVDDtCTI61QBz-w67eCpZeNyoVcCA"
+        }
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAuRpAxhrz5bOFIn5GmicNWZtNDSSruqwfTGlBmKH1WOs=\n-----END PUBLIC KEY-----\n"
+    }
+  }
+}

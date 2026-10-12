@@ -1,0 +1,25 @@
+{
+  "name": "@red-cup-engineering/transform-browser-asset-inventory-service",
+  "version": "0.1.0",
+  "description": "Fingerprint browser assets, rewrite local references, and add SHA-384 integrity metadata.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/transform-browser-asset-inventory.d.mts",
+      "import": "./src/transform-browser-asset-inventory.mjs"
+    }
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "check": "node --check src/transform-browser-asset-inventory.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "sideEffects": false,
+  "license": "UNLICENSED"
+}

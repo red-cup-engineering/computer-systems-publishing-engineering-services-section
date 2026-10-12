@@ -1,0 +1,25 @@
+{
+  "name": "@red-cup-engineering/project-progressive-web-app-artifacts-service",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Projects a deterministic Web App Manifest and offline service worker from a release artifact inventory.",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/project-progressive-web-app-artifacts.d.mts",
+      "import": "./src/project-progressive-web-app-artifacts.mjs"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "check": "node --check src/project-progressive-web-app-artifacts.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "sideEffects": false
+}

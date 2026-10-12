@@ -1,0 +1,52 @@
+{
+  "name": "@red-cup-engineering/victor",
+  "version": "0.1.15",
+  "description": "VICTOR - the website framework for building, composing, serving, and releasing Living Web applications over TUFTE and upstream web services.",
+  "keywords": [
+    "website-framework",
+    "website",
+    "living-web",
+    "static-site-generator",
+    "web-application",
+    "tufte"
+  ],
+  "type": "module",
+  "bin": {
+    "victor": "./scripts/victor.mjs"
+  },
+  "exports": {
+    ".": "./src/index.mjs",
+    "./release": "./src/release.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/activitypub-services-section": "0.8.1",
+    "@red-cup-engineering/build-projector-contract-service": "0.1.0",
+    "@red-cup-engineering/filesystem-content-reader-service": "0.1.0",
+    "@red-cup-engineering/http-edge-service": "0.1.0",
+    "@red-cup-engineering/project-progressive-web-app-artifacts-service": "0.1.0",
+    "@red-cup-engineering/project-public-site-search-artifacts-service": "0.1.0",
+    "@red-cup-engineering/project-web-feed-artifacts-service": "0.1.0",
+    "@red-cup-engineering/project-web-publication-archives-service": "0.1.0",
+    "@red-cup-engineering/serve-http-artifact-inventory-service": "0.1.2",
+    "@red-cup-engineering/static-site-conformance-service": "0.1.1",
+    "@red-cup-engineering/transform-browser-asset-inventory-service": "0.1.0",
+    "@red-cup-engineering/vault-compiler": "0.1.4",
+    "@red-cup-engineering/web-release-candidate-service": "0.1.1",
+    "@red-cup-engineering/webmention-service": "0.1.0",
+    "@red-cup-engineering/web-tufte-gui-services-section": "0.12.0",
+    "@red-cup-engineering/micropub-service": "0.1.0",
+    "@red-cup-engineering/workspace-content-graph-service": "0.9.0",
+    "@red-cup-engineering/web-theming-service": "0.0.4",
+    "yaml": "2.9.0",
+    "@red-cup-engineering/web-server-services-section": "0.5.0",
+    "@red-cup-engineering/http-observability-service": "0.0.3",
+    "@red-cup-engineering/compose-http-application-service": "0.1.1"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "license": "UNLICENSED"
+}

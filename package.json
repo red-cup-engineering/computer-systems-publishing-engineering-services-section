@@ -1,0 +1,43 @@
+{
+  "name": "@red-cup-engineering/computer-systems-publishing-engineering-services-section",
+  "version": "0.1.0",
+  "description": "Systems that render and assemble publication content into audiobook, browser, progressive-web-app, and HTTP artifacts.",
+  "type": "module",
+  "keywords": [
+    "engineering"
+  ],
+  "exports": {
+    "./audiobook-production": "./src/audiobook-production.mjs",
+    "./scripts/produce-audiobook-edition.mjs": "./scripts/produce-audiobook-edition.mjs",
+    "./project-progressive-web-app-artifacts": "./scripts/project-progressive-web-app-artifacts.mjs",
+    "./serve-http-artifact-inventory": "./scripts/serve-http-artifact-inventory.mjs",
+    "./transform-browser-asset-inventory": "./scripts/transform-browser-asset-inventory.mjs",
+    "./scripts/generate-book-illustration.mjs": "./scripts/generate-book-illustration.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/computer-serialized-content-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/computer-inference-engine": "workspace:*",
+    "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/ebook-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/voice-audio-services-section": "workspace:*",
+    "@red-cup-engineering/http-services-section": "workspace:*",
+    "@red-cup-engineering/uri-services-section": "workspace:*",
+    "@red-cup-engineering/json-services-section": "workspace:*",
+    "@red-cup-engineering/immutable-content-custody-service": "workspace:*",
+    "@red-cup-engineering/computer-filepath-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/computer-text-content-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/html-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/javascript-computer": "workspace:*",
+    "@red-cup-engineering/javascript-node-services-section": "workspace:*",
+    "@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/web-theming-service": "workspace:*",
+    "@red-cup-engineering/computer-data-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/computer-code-development-engine": "workspace:*"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "bin": {
+    "generate-book-illustration": "scripts/generate-book-illustration.mjs"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "kind": "news-property.most-read/v1",
+  "windowDays": 7,
+  "items": [
+    { "slug": "ai-compute-bottleneck-power-problem", "views": 4210 },
+    { "slug": "gate-audit-explainer", "views": 2870 },
+    { "slug": "hello-world", "views": 1190 }
+  ]
+}
