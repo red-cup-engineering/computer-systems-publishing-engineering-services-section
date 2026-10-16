@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/project-browser-asset-tree-service",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "description": "Publish HTML entries with their actual browser dependency closure and authored media.",
   "type": "module",
   "exports": {
@@ -23,5 +23,6 @@
     "esbuild": "0.28.1",
     "parse5": "8.0.0",
     "buffer": "6.0.3"
-  }
+  },
+  "private": false
 }
