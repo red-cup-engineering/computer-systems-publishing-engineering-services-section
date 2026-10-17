@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/computer-systems-publishing-engineering-services-section",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Systems that render and assemble publication content into audiobook, browser, progressive-web-app, and HTTP artifacts.",
   "type": "module",
   "keywords": [
@@ -12,7 +12,17 @@
     "./project-progressive-web-app-artifacts": "./scripts/project-progressive-web-app-artifacts.mjs",
     "./serve-http-artifact-inventory": "./scripts/serve-http-artifact-inventory.mjs",
     "./transform-browser-asset-inventory": "./scripts/transform-browser-asset-inventory.mjs",
-    "./scripts/generate-book-illustration.mjs": "./scripts/generate-book-illustration.mjs"
+    "./scripts/generate-book-illustration.mjs": "./scripts/generate-book-illustration.mjs",
+    "./ebook-production": "./src/ebook-production.mjs",
+    "./scripts/produce-ebook.mjs": "./scripts/produce-ebook.mjs",
+    "./scripts/produce-set-of-ebooks.mjs": "./scripts/produce-set-of-ebooks.mjs",
+    "./scripts/produce-print-edition.mjs": "./scripts/produce-print-edition.mjs",
+    "./scripts/fabricate-ebook-edition.mjs": "./scripts/fabricate-ebook-edition.mjs",
+    "./scripts/issue-ebook-edition.mjs": "./scripts/issue-ebook-edition.mjs",
+    "./scripts/carry-editions-forward.mjs": "./scripts/carry-editions-forward.mjs",
+    "./scripts/carry-ebook-proof.mjs": "./scripts/carry-ebook-proof.mjs",
+    "./scripts/verify-ebook-edition.mjs": "./scripts/verify-ebook-edition.mjs",
+    "./frozen-lockfile": "./release/pnpm-lock.yaml"
   },
   "dependencies": {
     "@red-cup-engineering/computer-serialized-content-engineering-services-section": "0.1.0",
@@ -22,7 +32,7 @@
     "@red-cup-engineering/computer-filepath-engineering-services-section": "0.1.0",
     "@red-cup-engineering/computer-text-content-engineering-services-section": "0.1.0",
     "@red-cup-engineering/computer-data-engineering-services-section": "0.2.0",
-    "@red-cup-engineering/ebook-engineering-services-section": "0.3.4",
+    "@red-cup-engineering/ebook-engineering-services-section": "0.4.1",
     "@red-cup-engineering/voice-audio-services-section": "0.1.1",
     "@red-cup-engineering/http-services-section": "0.6.2",
     "@red-cup-engineering/immutable-content-custody-service": "0.4.1",
@@ -32,13 +42,17 @@
     "@red-cup-engineering/computer-triplet-serialized-content-engineering-services-section": "0.1.1",
     "@red-cup-engineering/web-theming-service": "0.0.6",
     "@red-cup-engineering/computer-inference-engine": "0.1.2",
-    "@red-cup-engineering/computer-systems-fabrication-engineering-services-section": "0.3.2"
+    "@red-cup-engineering/computer-systems-fabrication-engineering-services-section": "0.3.2",
+    "@red-cup-engineering/read-markdown-frontmatter-service": "0.2.0",
+    "sharp": "0.35.5"
   },
   "scripts": {
     "test": "node --test test/*.test.mjs"
   },
   "bin": {
-    "generate-book-illustration": "scripts/generate-book-illustration.mjs"
+    "generate-book-illustration": "scripts/generate-book-illustration.mjs",
+    "ebook-production-cli": "apps/ebook-production-cli.mjs",
+    "fabricate-ebook-from-corpus": "apps/fabricate-ebook-from-corpus.mjs"
   },
   "private": false,
   "files": [
@@ -48,6 +62,16 @@
     "scripts",
     "src",
     "apps",
-    "!apps/news-property/**"
-  ]
+    "!apps/news-property/**",
+    "release"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-engineering-services-section.git",
+    "directory": "services/computer-systems-engineering-services-section/services/computer-systems-publishing-engineering-services-section"
+  },
+  "packageManager": "pnpm@11.28.5",
+  "registryConsumption": {
+    "frozenLockfile": "./release/pnpm-lock.yaml"
+  }
 }

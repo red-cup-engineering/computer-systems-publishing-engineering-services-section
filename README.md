@@ -25,3 +25,18 @@ The command writes the admitted specification, fabrication record, and
 automated proof named by the configuration. Live provider synthesis is not a
 repository check; `test/audiobook-production.test.mjs` uses a stub synthesizer
 while exercising real ffmpeg MP3 mastering and chapter-marked M4B muxing.
+
+## Ebook rendition production
+
+The `./ebook-production` export composes the Data-owned fixed edition profile
+with the Pandoc/XeLaTeX rendition effect. EPUB, screen PDF, typographic and
+illustrated covers, print interiors and wraps, batch production, corpus
+assembly, edition issuance and proof extraction have one Systems owner here.
+Templates are resolved through the exact ebook Data package exports; paths
+never depend on a surrounding checkout. The Kindle pipeline uses this
+composition. `ebook-production-cli` is the existing application face.
+
+Production requires Pandoc, XeLaTeX, Fontconfig, Poppler, zip and unzip on the
+selected host. Fabrication produces bytes; it does not assert editorial
+acceptance or retail publication. Keep manuscript, metadata, cover adoption,
+rights and token provenance with the content owner.
