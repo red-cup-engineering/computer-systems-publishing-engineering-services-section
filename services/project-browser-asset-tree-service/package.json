@@ -2,6 +2,11 @@
   "name": "@red-cup-engineering/project-browser-asset-tree-service",
   "version": "0.4.2",
   "description": "Publish HTML entries with their actual browser dependency closure and authored media.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-systems-engineering-services-section.git",
+    "directory": "services/computer-systems-publishing-engineering-services-section/services/project-browser-asset-tree-service"
+  },
   "type": "module",
   "exports": {
     ".": "./src/project-browser-asset-tree.mjs"
