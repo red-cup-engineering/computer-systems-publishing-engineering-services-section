@@ -1,0 +1,20 @@
+[submodule "news-property"]
+	path = apps/news-property
+	url = https://github.com/red-cup-engineering/news-property.git
+	branch = main
+[submodule "website-administration-reading-service"]
+	path = services/website-administration-reading-service
+	url = https://github.com/red-cup-engineering/website-administration-reading-service.git
+	branch = main
+[submodule "web-release-candidate-service"]
+	path = services/web-release-candidate-service
+	url = https://github.com/red-cup-engineering/web-release-candidate-service.git
+	branch = main
+[submodule "static-site-conformance-service"]
+	path = services/static-site-conformance-service
+	url = https://github.com/red-cup-engineering/static-site-conformance-service.git
+	branch = main
+[submodule "project-browser-asset-tree-service"]
+	path = services/project-browser-asset-tree-service
+	url = https://github.com/red-cup-engineering/project-browser-asset-tree-service.git
+	branch = main
