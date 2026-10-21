@@ -72,5 +72,10 @@
   "packageManager": "pnpm@11.28.5",
   "registryConsumption": {
     "frozenLockfile": "./release/pnpm-lock.yaml"
+  },
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
   }
 }
