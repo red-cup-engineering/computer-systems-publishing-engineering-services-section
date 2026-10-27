@@ -1,0 +1,48 @@
+{
+  "id": "2026-10-27-computer-systems-publishing-engineering-services-section-normalization",
+  "kind": "misfiled-resources-register",
+  "by": "apply-services-section-normalization",
+  "date": "2026-10-27",
+  "moved": [
+    {
+      "from": "content/requirements/the-audiobook-and-audioplay-stack-is-enriched.json",
+      "to": "data/records/service-records/requirements-management-service-records/the-audiobook-and-audioplay-stack-is-enriched.json",
+      "rule": "requirements-are-service-records",
+      "sourceSha256": "464f97301f656f2f80c4398c904b3593fa91b55b0beb91a80e6111f7e26b390f",
+      "destinationSha256": "464f97301f656f2f80c4398c904b3593fa91b55b0beb91a80e6111f7e26b390f",
+      "byteIdentical": true
+    }
+  ],
+  "owed": [
+    {
+      "rule": "stray-top-level",
+      "reason": ".npmrc/ is not an entry the services-section law knows; its owner decides where it belongs",
+      "directory": ".",
+      "count": 1
+    },
+    {
+      "rule": "stray-top-level",
+      "reason": "LICENSE/ is not an entry the services-section law knows; its owner decides where it belongs",
+      "directory": ".",
+      "count": 1
+    },
+    {
+      "rule": "recovered-means-restored",
+      "reason": "Leader, 2026-10-25: \"we need to actually recover these\"; each is restored to the record or code it came from",
+      "directory": "content/text/documents/articles/notes/recovered/history",
+      "count": 1
+    },
+    {
+      "rule": "stray-top-level",
+      "reason": "pnpm-lock.yaml/ is not an entry the services-section law knows; its owner decides where it belongs",
+      "directory": ".",
+      "count": 1
+    },
+    {
+      "rule": "stray-top-level",
+      "reason": "release/ is not an entry the services-section law knows; its owner decides where it belongs",
+      "directory": "release",
+      "count": 1
+    }
+  ]
+}
